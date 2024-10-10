@@ -85,7 +85,7 @@ export default function Index() {
         borderRadius: 10
       }}
     />
-    <Button onPress={handlePress} title="Click to see" />
+    <Button onPress={handlePress} title="Click to see me move" />
     </View>
   );
 }
