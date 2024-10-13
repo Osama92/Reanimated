@@ -70,7 +70,6 @@ export default function Index() {
   const width = useSharedValue(100);
 
   const handlePress = () => {
-    //width.value = withSpring(width.value + 50);
     width.value = withTiming(width.value + 50);
   };
 
